@@ -16,6 +16,7 @@
     align-items: center;
 
 }
+
 /* /region utility */
 /* region header */
 .small-container {
@@ -52,6 +53,7 @@ a {
 .logo {
     color: white;
 }
+
 /* /region header */
 /* region main */
 
@@ -83,12 +85,16 @@ a {
 }
 
 .hearth {
-
     position: absolute;
     top: 1%;
     right: 0%;
     background-color: white;
     padding: 0.25rem;
+
+}
+
+.hearth:hover {
+    color: red;
 }
 
 .bonus {
@@ -115,11 +121,22 @@ a {
 
 /* ./region main */
 
-
-
-
 /* region footer */
 
+.network {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: right;
+}
 
+.footer-network {
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 12rem;
+    display: flex;
+}
 
 /* /region footer */
