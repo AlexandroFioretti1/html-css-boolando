@@ -25,16 +25,6 @@
 
 /* region header */
 
-#upp-header {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-}
 
 
 .small-container {
@@ -55,7 +45,6 @@ li {
     display: inline;
 }
 
-
 a {
     list-style-type: none;
     text-decoration: none;
@@ -65,15 +54,11 @@ a {
     padding: 0px 1rem;
 }
 
-
-
 .logo {
     color: white;
 }
 
 /* /region header */
-
-
 
 /* region main */
 
@@ -82,17 +67,13 @@ a {
     margin: auto;
 
 }
-
 .img-card {
     width: 100%;
 
 }
-
 .card {
     width: calc(90% / 3);
 }
-
-
 
 .column {
     display: flex;
@@ -100,8 +81,7 @@ a {
     flex-wrap: wrap;
 }
 
-
-.row{
+.row {
     width: 70%;
     margin: auto;
 }
