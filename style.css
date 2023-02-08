@@ -22,17 +22,19 @@
 
 /* /region utility */
 
-
 /* region header */
-
-
 
 .small-container {
     background-color: orange;
     width: 100%;
-    height: auto;
+    height: 80px;
     justify-content: space-around;
+    align-items: center;
     position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
 
 }
 
@@ -60,35 +62,80 @@ a {
 
 /* /region header */
 
+
+
 /* region main */
 
 .container {
     width: 70%;
     margin: auto;
 
+
 }
+
+.img-header {
+    position: relative;
+}
+
 .img-card {
     width: 100%;
 
 }
+
 .card {
     width: calc(90% / 3);
+
 }
 
 .column {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.row {
-    width: 70%;
-    margin: auto;
+    margin: 8rem;
 }
 
 
 
-/* /region main */
+
+.img-card {}
+
+.hearth {
+
+    position: absolute;
+    top: 1%;
+    right: 0%;
+    background-color: white;
+    padding: 0.25rem;
+}
+
+
+.bonus {
+    position: absolute;
+    bottom: 15%;
+    left: 2%;
+}
+
+
+.sconto {
+    color: white;
+    background-color: red;
+    padding: 3px 3px;
+}
+
+.green-sostenability {
+    color: white;
+    background-color: green;
+    padding: 3px 3px;
+}
+
+
+.marca {
+    color: lightgray;
+}
+
+.box {}
+
+/* ./region main */
 
 
 
