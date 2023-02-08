@@ -1,56 +1,93 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:"Helvetica Now", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Now", Helvetica, Arial, sans-serif;
 }
 
 /* region utility */
 
-.container{
+
+/* debug */
+
+.debug {
+    background-color: green;
+    border: 4px solid yellow;
+
+}
+body {
+    background-color: purple
+}
+
+footer{
+    background-color: brown;
+}
+/* /debug */
+i{
+    color: white;
+}
+
+#upp-header {
+    position: sticky;
+}
+
+.small-container {
+    background-color: orange;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.container {
     width: 70%;
-    padding: 3rem;
+    max-width: 1152px;
     margin: auto;
 }
 
-
-.small-container{
-    background-color: orange;
-    width: 100%;
-    height: 100px;
-    justify-content:space-between;
-}
-
-.flex{
-    flex-direction: flex;
+.flex {
+    display: flex;
 }
 
 
-.bage{
-    background-color: red;
-    position: absolute;
-    top: 0;
-    right: 0;
+.logo {
+    color: white;
 }
-
-
 
 /* /region utility */
 
 
-
-
-
-
 /* region header */
 
-aa
+
+.header-ul {
+    text-decoration: none;
+    color: white;
+    text-decoration-style: none;
+    list-style-type: none;
+}
+.list-header{
+    list-style-type: none;
+    display: inline;
+
+}
 
 /* /region header */
 
 
 
 /* region main */
+
+.card {
+    background-color: black;
+    color: white;
+}
+
+
+
+.column {
+    width: calc(100% / 12 * 4);
+    padding: 0.5rem;
+}
 
 
 
