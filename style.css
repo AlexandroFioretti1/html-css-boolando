@@ -10,20 +10,11 @@
 
 /* debug */
 
-.debug {
-    background-color: green;
-    border: 4px solid yellow;
 
-}
-body {
-    background-color: purple
-}
 
-footer{
-    background-color: brown;
-}
+
 /* /debug */
-i{
+i {
     color: white;
 }
 
@@ -42,6 +33,10 @@ i{
     width: 70%;
     max-width: 1152px;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #cccccc;
+    width: calc(50% / 4);
 }
 
 .flex {
@@ -65,7 +60,8 @@ i{
     text-decoration-style: none;
     list-style-type: none;
 }
-.list-header{
+
+.list-header {
     list-style-type: none;
     display: inline;
 
@@ -86,7 +82,7 @@ i{
 
 .column {
     width: calc(100% / 12 * 4);
-    padding: 0.5rem;
+    
 }
 
 
